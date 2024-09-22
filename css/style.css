@@ -1,0 +1,163 @@
+/* Default CSS Start */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: all linear 0.3s;
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+}
+html{
+    scroll-behavior: none;
+}
+:root{
+    --urbgnist:"Urbanist", sans-serif;
+}
+body{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: var(--urbgnist);
+    font-weight: 500;
+    font-style: normal;
+    color: #848FAC;
+}
+.container{
+    max-width: 1240px;
+    margin: 0 auto;
+    border: 1px dotted green;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+span{
+    display: inline-block;
+}
+ul,ol{
+    list-style-type: none;
+}
+.dFlex{
+    display: flex;
+}
+.btn{
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    background-color: #fff;
+    padding: 16px 40px;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.btn:hover{
+    color: #fff;
+    background-color: #6345D5;
+}
+/* Default CSS End */
+
+/* NAV Section Start */
+#nav{
+    width: 100%;
+    background: linear-gradient(to left, #7c63e0, #fff, #fff);
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999999999;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.10);
+}
+#nav .dFlex{
+    justify-content: space-between;
+    align-items: center;
+}
+.navMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;    
+}
+.navMenu li a{
+    font-weight: 700;
+    color: #606D93;
+    text-transform: capitalize;
+}
+.navMenu li a:hover{
+    color: #192252;
+}
+#nav .btn.active{
+    background-color: #6345D5;
+}
+/* NAV Section End */
+
+/* Banner Section Start */
+#banner{
+    width: 100%;
+    padding: 215px 0 660px;
+    position: relative;
+}
+.illustration_1{
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.illustration_2 {
+    position: absolute;
+    right: 114px;
+    top: 62px;
+    z-index: 1;
+}
+.illustration_3{
+    position: absolute;
+    left: 0;
+    top: 747px;
+    z-index: 1;
+}
+.bannerWrapper{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+}
+.bannerTitle{
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 110%;
+    color: #192252;
+}
+.bannerPara{
+    width: 332px;
+    line-height: 150%;
+    margin: 40px 0;
+}
+.bannerImage{
+    margin-right: -40px;
+}
+.bannerText .btn:last-child{
+    margin-left: 24px;
+}
+/* Banner Section End */
+
+/* Dashboard Section Start */
+/* Dashboard Section End */
+
+/* Money Transaction Section Start */
+/* Money Transaction Section End */
+
+/* Support Section Start */
+/* Support Section End */
+
+/* Planning Section Start */
+/* Planning Section End */
+
+/* About Section Start */
+/* About Section End */
+
+/* Footer Section Start */
+/* Footer Section End */
