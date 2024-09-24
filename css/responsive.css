@@ -1,0 +1,74 @@
+/* Mobile Devise */
+@media (max-width: 575.999px) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+    .navMenu {
+        display: none;
+    }
+    #banner{
+        display: none;
+    }
+    #dashboard{
+        display: none;
+    }
+    #money{
+        display: none;
+    }
+    #support{
+        display: none;
+    }
+    #planning{
+        display: none;
+    }
+    #about{
+        display: none;
+    }
+    #footer{
+        display: none;
+    }
+}
+
+
+
+
+/* Small Devise */
+@media screen and (min-width: 576px) and (max-width: 767.999px) {
+    
+}
+
+
+
+
+/* Medium Devise */
+@media screen and (min-width: 768px) and (max-width: 991.999px) {
+    
+}
+
+
+
+
+
+/* Large Devise */
+@media screen and (min-width: 992px) and (max-width: 1199.999px) {
+    
+}
+
+
+
+
+
+/* Extra Large Devise */
+@media screen and (min-width: 1200px) and (max-width: 1399.999px) {
+    
+}
+
+
+
+
+
+/* Extra Extra Large Devise */
+@media screen and (min-width: 1400px) {
+   
+}
