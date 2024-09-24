@@ -27,7 +27,6 @@ body{
 .container{
     max-width: 1240px;
     margin: 0 auto;
-    border: 1px dotted green;
 }
 a{
     text-decoration: none;
@@ -91,7 +90,7 @@ ul,ol{
     text-transform: capitalize;
 }
 .navMenu li a:hover{
-    color: #192252;
+    color: #0915f2;
 }
 #nav .btn.active{
     background-color: #6345D5;
@@ -764,6 +763,12 @@ ul,ol{
 }
 #aboutForm textarea{
     width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 #aboutForm button{
     width: 100%;
@@ -797,4 +802,78 @@ ul,ol{
 /* About Section End */
 
 /* Footer Section Start */
+#footer{
+    padding: 100px 0 40px;
+    background-color: #201353;
+}
+#footer .dFlex{
+    justify-content: space-between;
+    align-content: flex-start;
+}
+#footer .left{
+    width: 40%;
+}
+#footer .left p{
+    width: 332px;
+    color: rgba(255, 255, 255, 0.64);
+    margin-top: 24px;
+}
+#footer .right{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+#footer .right ul{
+    width: 25%;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.80);
+}
+#footer .right ul li{
+    margin-bottom: 24px;
+}
+#footer .right ul li:last-child{
+    margin-bottom: inherit;
+}
+#footer .right ul li:first-child{
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.footerBottom{
+    border-top: 1px solid #515151;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footerBottom p{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.64);
+    padding-top: 32px;
+}
+.footerIcon{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 20px;
+}
+.footerIcon i{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #CAC0F3;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+.footerIcon i:hover{
+    cursor: pointer;
+    color: #000;
+    background-color: #CAC0F3;
+}
 /* Footer Section End */
