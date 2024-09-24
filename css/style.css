@@ -343,7 +343,8 @@ ul,ol{
     width: 421px;
     font-size: 18px;
     font-weight: 500;
-    color: #848FAC;
+    /* color: #848FAC; */
+    color: #373737;
     line-height: 1.5;
     margin: 24px 0 40px;
 }
@@ -395,7 +396,8 @@ ul,ol{
 #planning .planSubtitle{
     font-size: 18px;
     font-weight: 500;
-    color: #848FAC;
+    /* color: #848FAC; */
+    color: #373737;
     text-align: center;
     margin-top: 24px;
 }
@@ -471,7 +473,7 @@ ul,ol{
 #planning .dFlex .left .item div{
     max-width: 236px;
 }
-#planning .dFlex .left .item div h4{
+#planning .dFlex .left .item div h2{
     font-size: 20px;
     font-weight: 700;
     color: #192252;
@@ -481,18 +483,20 @@ ul,ol{
 #planning .dFlex .left .item div p{
     font-size: 16px;
     font-weight: 500;
-    color: #848FAC;
+    /* color: #848FAC; */
+    color: #373737;
 }
-#planning .dFlex .left .item h5{
+#planning .dFlex .left .item h3{
     font-size: 32px;
     font-weight: 700;
     color: #192252;
     text-transform: uppercase;
 }
-#planning .dFlex .left .item h5>span{
+#planning .dFlex .left .item h3>span{
     font-size: 16px;
     font-weight: 500;
-    color: #848FAC;
+    /* color: #848FAC; */
+    color: #373737;
     margin-left: 5px;
 }
 .planSilver{
@@ -605,7 +609,8 @@ ul,ol{
 .timeWrapper span{
     font-size: 16px;
     font-weight: 500;
-    color: #848FAC;
+    /* color: #848FAC; */
+    color: #373737;
     padding: 10px 20px;
     border-radius: 22px;
     -webkit-border-radius: 22px;
@@ -615,11 +620,13 @@ ul,ol{
 }
 .timeWrapper .active{
     color: #fff;
-    background-color: #FC9770;
+    /* background-color: #FC9770; */
+    background-color: #942900;
 }
 .timeWrapper span:hover{
     color: #fff;
-    background-color: #FC9770;
+    background-color: #942900;
+    /* background-color: #FC9770; */
     cursor: pointer;
 }
 .planRight ul li{
@@ -727,7 +734,7 @@ ul,ol{
 #about .aboutCard .aboutCardHead{
     text-align: center;
 }
-#about .aboutCard .aboutCardHead h4{
+#about .aboutCard .aboutCardHead h2{
     font-size: 24px;
     font-weight: 700;
     color: #fff;
@@ -777,7 +784,8 @@ ul,ol{
     line-height: 24px;
     color: #fff;
     text-align: center;
-    background-color: #FC9770;
+    /* background-color: #FC9770; */
+    background-color: #942900;
     padding: 20px 0;
     border-radius: 8px;
     -webkit-border-radius: 8px;
