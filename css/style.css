@@ -141,6 +141,9 @@ ul,ol{
 .bannerText .btn{
     color: #192252;
 }
+.bannerText .btn:hover{
+    color: #fff;
+}
 .bannerImage{
     margin-right: -40px;
 }
@@ -435,16 +438,16 @@ ul,ol{
     border: 8px solid #fff;
     outline: 3px solid transparent;
 }
-#planning .dFlex .left .item:hover h5 {
+#planning .dFlex .left .item:hover h2 {
     color: #fff;
 }
-#planning .dFlex .left .item:hover div h4 {
+#planning .dFlex .left .item:hover h3 {
     color: #fff;
 }
 #planning .dFlex .left .item:hover div p {
     color: #fff;
 }
-#planning .dFlex .left .item:hover h5>span {
+#planning .dFlex .left .item:hover h3>span {
     color: #fff;
 }
 #planning .dFlex .left .item:hover .planSilver::after {
@@ -848,6 +851,13 @@ ul,ol{
     font-weight: 700;
     margin-bottom: 40px;
 }
+#footer .right ul li a:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
 .footerBottom{
     border-top: 1px solid #515151;
     display: flex;
@@ -884,5 +894,10 @@ ul,ol{
     cursor: pointer;
     color: #000;
     background-color: #CAC0F3;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
 }
 /* Footer Section End */
