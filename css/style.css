@@ -803,7 +803,7 @@ ul,ol{
 
 /* Footer Section Start */
 #footer{
-    padding: 100px 0 40px;
+    padding: 100px 0 0 0;
     background-color: #201353;
 }
 #footer .dFlex{
@@ -845,12 +845,13 @@ ul,ol{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 64px;
+    padding: 25px 0;
 }
 .footerBottom p{
     font-size: 18px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.64);
-    padding-top: 32px;
 }
 .footerIcon{
     display: flex;
